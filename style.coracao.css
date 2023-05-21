@@ -1,0 +1,48 @@
+
+body {
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(255, 190, 244);    
+}
+
+
+.texto-titulo {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  color: rgb(185, 0, 154);
+  font-size: 50px;
+}
+
+
+.texto-titulo-2{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  color: rgb(131, 3, 110);
+  font-size: 30px;
+}
+
+
+.conteiner-coracao {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    margin: 50px auto;
+    animation: pulsa 1s linear 0s infinite;
+}
+
+  @keyframes pulsa {    
+      0% {
+        transform: scale(0.9) rotate(0deg);
+      }
+      50% {
+        transform: scale(1) rotate(0deg);
+      }
+      
+      80% {
+        transform: scale(1.1) rotate(0deg);
+      }
+      100% {
+        transform: scale(1) rotate(0deg);
+      }
+    }
